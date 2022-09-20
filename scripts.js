@@ -19,14 +19,14 @@ const contadorCarrito = document.getElementById("conteo-carrito");
 const botonFinalizarCompra = document.getElementById("finalizar-compra");
 
 //STORAGE-cuando se actualiza la página, se carga el carrito abandonado
-//OPERADOR LOGICO OR--------------
+
 carrito = JSON.parse(localStorage.getItem('carrito')) || []; 
 
 //FUNCIONES-
 crearTarjeta();
 actualizarCarrito();
 
-//FETCH- se obtienen los datos del archivo (stock.json) y se insertan en las cartas
+//FETCH- se obtienen los datos del archivo y se insertan en las cartas
 function crearTarjeta(){
 fetch('/productos.json')
 .then((res) => res.json())
@@ -77,7 +77,7 @@ const agregarAlCarrito=(productoSeleccionado)=>{
     if (existe){
             carrito.map(prod => prod.codigo===productoSeleccionado.codigo && prod.cantidad++);
         }else{
-        //se agrega al carrito y después se actualiza
+        //se agrega al carrito y se actualiza
         carrito.push(productoSeleccionado);   
     }
     actualizarCarrito();

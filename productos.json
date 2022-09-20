@@ -1,0 +1,97 @@
+[{
+    "codigo":1,
+    "nombre": "Pollo",
+    "imagen": "./imagenes/pollo.jpg",
+    "cantidad": 1,
+    "precio": 2000
+
+    },
+    
+    {
+        "codigo":2,
+        "nombre": "Milaness de pechuga ",
+        "imagen": "./imagenes/milanesas.jpg",
+        "cantidad": 1,
+        "precio": 1350
+    
+    },
+    
+    {
+        "codigo":3,
+        "nombre": "Milanesas de carne",
+        "imagen": "./imagenes/milanesas1.jpg",
+        "cantidad": 1,
+        "precio": 1350 
+    
+    },
+    
+    {
+        "codigo":4,
+        "nombre": "Hamburguesas",
+        "imagen": "./imagenes/hamburguesas.jpg",
+        "cantidad": 1,
+        "precio": 950
+    
+    },
+    
+    {
+        "codigo":5,
+        "nombre": "Albondigas",
+        "imagen": "./imagenes/albondigas.jpg",
+        "cantidad": 1,
+        "precio": 900 
+    
+    },
+    
+    {
+        "codigo":6,
+        "nombre": "Patitas de pollo",
+        "imagen": "./imagenes/patitas.jpg",
+        "cantidad": 1,
+        "precio": 1600
+},
+    
+    {
+        "codigo":7,
+        "nombre": "Bocaditos de espinaca",
+        "imagen": "./imagenes/bocaditos1.jpg",
+        "cantidad": 1,
+        "precio": 2000
+
+    },
+        
+    {
+        "codigo":8,
+        "nombre": "Bocaditos de calabaza",
+        "imagen": "./imagenes/bocaditos.jpg",
+        "cantidad": 1,
+        "precio": 2000 
+
+    },
+            
+    {
+        "codigo":9,
+        "nombre": "Papas smile",
+        "imagen": "./imagenes/papas1.jpg",
+        "cantidad": 1,
+        "precio": 1500 
+
+    },        
+    {
+        "codigo":10,
+        "nombre": "Papas noissete",
+        "imagen": "./imagenes/papas.jpg",
+        "cantidad": 1,
+        "precio": 1500 
+
+    },   
+    {
+        "codigo":11,
+        "nombre": "Papas tradicionales",
+        "imagen": "./imagenes/papas2.jpg",
+        "cantidad": 1,
+        "precio": 1000 
+
+    }       
+
+]

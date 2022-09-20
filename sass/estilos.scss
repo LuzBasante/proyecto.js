@@ -1,0 +1,19 @@
+/*HEADER*/
+header {
+  background-color: rgba(134, 28, 19, 0.92); color: white;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+header .conteiner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+header nav{
+  flex-direction: row;
+  padding-bottom: 0;
+  padding-right: 20px;
+}

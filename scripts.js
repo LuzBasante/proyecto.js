@@ -97,7 +97,7 @@ function actualizarCarrito(){
                         `;
                     contenedorCarrito.append(div);
                     //se asigna un botón para eliminar cada producto del carrito
-                    const eliminarProducto = document.getElementById(`eliminar${prod.codigo}`);
+                    const eliminarProducto = document.getElementById(`eliminar${prod.nombre}`);
                     eliminarProducto.addEventListener("click", function(){
                         Swal.fire({
                             position: 'top-end',
